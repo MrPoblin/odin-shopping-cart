@@ -5,7 +5,7 @@ import routes from "./routes";
 import './index.css'
 import CartItems from "./components/CartItems";
 
-const router = createBrowserRouter(routes);
+const router = createBrowserRouter(routes, { basename: "/odin-shopping-cart" });
 
 
 
