@@ -1,3 +1,6 @@
+import PropTypes from "prop-types";
+
+
 export default function ItemInCart({image, title, price, quantity}){
 
     
@@ -11,3 +14,10 @@ export default function ItemInCart({image, title, price, quantity}){
         </div>
     );
 }
+
+ItemInCart.propTypes = {
+    image: PropTypes.string,
+    title: PropTypes.string,
+    price: PropTypes.number,
+    quantity: PropTypes.number,
+  };

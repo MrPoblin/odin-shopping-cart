@@ -10,9 +10,9 @@ const router = createBrowserRouter(routes);
 
 
 createRoot(document.getElementById("root")).render(
-  // <StrictMode>
+  <StrictMode>
       <CartItems>
         <RouterProvider router={router} />
       </CartItems>
-  /* </StrictMode>, */
+   </StrictMode>
 );
